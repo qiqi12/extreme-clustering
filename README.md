@@ -1,7 +1,7 @@
 # extreme-clustering
 ## System requirements
-+operating systems：windows 10 (64bit)
-+software: MATLAB R2014a
++ operating systems：windows 10 (64bit)
++ software: MATLAB R2014a
 ## Instructions for use
 1. you should open MATLAB, put 'Extreme_Clustering.m' and 'Visualization.m'  into the current folder of MATLAB, and enter the following command in the MATLAB command window:
 <pre><code>clear all
