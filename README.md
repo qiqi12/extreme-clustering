@@ -1,4 +1,4 @@
-# extreme-clustering
+# extreme clustering– A clustering method via density extreme points
 ## System requirements
 + operating systems：windows 10 (64bit)
 + software: MATLAB R2014a
