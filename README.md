@@ -5,14 +5,21 @@ We provide two code versions, namely:
 + Python
 + MATLAB
 ## Instructions for use
-### 2.MATLAB version
-(1). you should open MATLAB, put 'Extreme_Clustering.m' and 'Visualization.m'  into the current folder of MATLAB, and enter the following command in the MATLAB command window:
+### Python version
+You just need to edit main.py and run it.
+<pre><code>
+data = np.loadtxt("data-sets/s1.txt") # s1.txt can be relpacecd by any other data set under the 'data-sets' folder. 
+clusteringResult = Extreme_Clustreing(data, 70000, False)  #'70000' is the value of δ meaning the radius of neighborhood, and 'False' is the value of  parameter 'isGaussian' which determines whether to calculate density by Gaussian Kernel.
+Visualization(data, clusteringResult, False)  #'False' is the value of parameter 'is_showingnoise' which determines whether to show noise. If you don’t need visualization, please delete this line.
+</code></pre>
+### MATLAB version
+1. you should open MATLAB, put 'Extreme_Clustering.m' and 'Visualization.m'  into the current folder of MATLAB, and enter the following command in the MATLAB command window:
 <pre><code>clear all
 data=load('data-sets/s1.txt');    % s1.txt can be relpacecd by any other data set under the 'data-sets' folder. 
 clustering_result = Extreme_Clustering(data,70000,false);   %'70000' is the value of δ meaning the radius of neighborhood, and 'false' is the value of  parameter 'isGaussian' which determines whether to calculate density by Gaussian Kernel.
 Visualization(data,clustering_result,false);  %'false' is the value of parameter 'is_showingnoise' which determines whether to show noise.
 </code></pre>
-(2). If you want to perform face clustering experiment, you should put all files under the folder 'Face Clustering' into the current folder of MATLAB, and enter the following command in the MATLAB command window:
+2. If you want to perform face clustering experiment, you should put all files under the folder 'Face Clustering' into the current folder of MATLAB, and enter the following command in the MATLAB command window:
 <pre><code>clear all
 Extreme_clustering_face
 </code></pre>
