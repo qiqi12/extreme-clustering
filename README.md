@@ -1,8 +1,9 @@
 # extreme clustering– A clustering method via density extreme points
 Extreme clustering ([paper link](https://www.sciencedirect.com/science/article/pii/S0020025520306587)) is a clustering algorithm, which is to identify density extreme points to find cluster centers. Extreme clustering performance is very outstanding, and it is not affected by the number, size, and shape of clusters, as well as the differences in density and compactness between clusters. Extreme clustering has high robustness on diverse datasets. On unbalance datasets and noise datasets, the clustering results of extreme clustering are vastly superior to other algorithms. we compared extreme clustering with other 10 clustering algorithms on 8 datasets, and the results show that extreme clustering consistent outperforms baselines.
-## System requirements
-+ operating systems：windows 10 (64bit)
-+ software: MATLAB R2014a
+## Code version
+We provide two code versions, namely: 
++ Python
++ MATLAB
 ## Instructions for use
 1. you should open MATLAB, put 'Extreme_Clustering.m' and 'Visualization.m'  into the current folder of MATLAB, and enter the following command in the MATLAB command window:
 <pre><code>clear all
