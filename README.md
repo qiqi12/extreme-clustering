@@ -19,5 +19,5 @@ clustering_result = Extreme_Clustering(data,70000,false);   %'70000' is the valu
 Visualization(data,clustering_result,false);  %'false' is the value of parameter 'is_showingnoise' which determines whether to show noise.
 </code></pre>
 ## Note
-1.If you want to test extreme clustering on 'flame', 'spiral' or 'a3' data set, you should set 'isGaussian' to 'true'.  
-2.The Aggregation, flame, and spiral datasets have 3 columns, the last column is the label, please block this column before clustering.
+1.If you want to test extreme clustering on 'flame', 'spiral' or 'a3' dataset, you should set 'isGaussian' to 'true'.  
+2.'Aggregation', 'flame', and 'spiral' datasets have 3 columns, the last column is the label, please block this column before clustering.
