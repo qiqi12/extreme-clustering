@@ -23,4 +23,5 @@ Visualization(data,clustering_result,false);  %'false' is the value of parameter
 Extreme_clustering_face
 </code></pre>
 ## Note
-If you want to test extreme clustering on 'flame', 'spiral' or 'a3' data set, you should set 'isGaussian' to 'true'.
+1.If you want to test extreme clustering on 'flame', 'spiral' or 'a3' data set, you should set 'isGaussian' to 'true'.
+2.The Aggregation, flame, and spiral datasets have 3 columns, the last column is the label, please block this column before clustering.
