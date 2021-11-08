@@ -6,8 +6,7 @@ We provide two code versions, namely:
 + MATLAB
 ## Instructions for use
 ### Python version
-You just need to edit main.py and run it.
-<pre><code>
+You just need to edit main.py and run it.<pre><code>
 data = np.loadtxt("data-sets/s1.txt") # s1.txt can be relpacecd by any other data set under the 'data-sets' folder. 
 clusteringResult = Extreme_Clustreing(data, 70000, False)  #'70000' is the value of δ meaning the radius of neighborhood, and 'False' is the value of  parameter 'isGaussian' which determines whether to calculate density by Gaussian Kernel.
 Visualization(data, clusteringResult, False)  #'False' is the value of parameter 'is_showingnoise' which determines whether to show noise. If you don’t need visualization, please delete this line.
